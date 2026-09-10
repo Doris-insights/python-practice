@@ -83,20 +83,72 @@ print(test)
 test = " doris  ".strip()
 print(test)
 
+# Numeric data type
+x = 5
+y = 5.7
+z = 2 + 3j
 
+print(type(x))
+print(type(y))
+print(type(z))
 
+x = 34.3
+print(int(x))
 
+x = "15"
+print(type(x))
+x = int(x)
+print(type(x))
+print(x * 3)
 
+x = 34
+print(float(x))
 
+# Maths operators
+print(4 + 8)
+print(4 - 8)
+print(4 / 8)
+print(4 // 8)
+print(9 % 2)
+print(2 ** 3)
 
+# Measure Distance
 
+print(2 - 10)
+print(abs(2 - 10))
 
+# Rounding Numbers
+import math
+price = 35.6474357
 
+print(round(price))
+print(round(price,2))
+print(math.floor(price))
+print(math.ceil(price))
+print(math.floor(price))
 
+# Ramdom 
+import random
+print(random.random())
+print(random.randint(1,9))
 
+#Validation
+x = 7.0
+print(x.is_integer())
 
+y = 7.1
+print(y.is_integer())
 
+# python challenge
+# generate a random integer between 1 and 100, and check if the result is an even number
 
+number = random.randint(1,100)
+print("random number:", number)
+
+if number % 2 == 0:
+  print("The number is even")
+else:
+  print("The number is odd")
 
 
 
