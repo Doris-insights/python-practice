@@ -190,13 +190,41 @@ print(2 - 1 != 2)
 #LOGICAL OPERATORS
 
 print(3 > 1 and 5 > 1)
+print(3 > 1 or 1 > 5 )
+print(3 > 5 or 1 > 5 )
+print(not (3 > 1 or  1 > 5 ))
+
+# Allow access only if the user is logged in
+# or they are a guest
+# but they must not be banned
+
+is_logged_in = True
+is_guest = False
+is_banned = False
+
+print(is_logged_in or is_guest and not is_banned)
+
+is_logged_in = True
+is_guest = False
+is_banned = True
+
+print(is_logged_in or is_guest and not is_banned)
 
 
+is_logged_in = True
+is_guest = False
+is_banned = True
 
+print((is_logged_in or is_guest) and not is_banned)
 
+# MEMBERSHIP OPERATORS
+name = ["doris", "divine", "xcel"]
+print("doris" in name)
+print("xcel" not in name)
+print("gift" in name)
+print("gift" not in name)
 
-
-
+# IIDENTITY OPERATORS
 
 
 
