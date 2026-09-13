@@ -150,6 +150,57 @@ if number % 2 == 0:
 else:
   print("The number is odd")
 
+# BOOLEAN FUNCTION 
+
+email = ""
+phone = "0900873990"
+username = "" 
+# allows registration
+#if any field is filled
+print(any([email, phone, username]))
+
+email = "doris@gmail"
+phone = "0900873990"
+username = "gift" 
+# allows registration
+#only if all field is filled
+print(all([email, phone, username]))
+
+email = "doris@gmail"
+phone = "0900873990"
+username = "" 
+# allows registration
+#only if all field is filled
+print(all([email, phone, username]))
+
+print(isinstance(123, int))
+print("doris".endswith("s"))
+
+# COMPARISON OPERATORS
+
+print(10 == 10)
+print("a" > "f")
+print("a" == "A")
+
+age = 20
+print(18 <= age <= 30)
+
+print(2 - 1 != 2)
+
+#LOGICAL OPERATORS
+
+print(3 > 1 and 5 > 1)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
