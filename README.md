@@ -86,3 +86,72 @@ This repository documents my learning journey, practice, mistakes, and improveme
 I'm learning step by step and using this repository to track my progress as I become more confident with Python.
 
 **One line of code at a time. 🐍💻**
+
+
+3. exercise.py
+
+Contains my Python Beginner Assessment.
+
+The assessment covers:
+
+Variables
+Data types
+Strings
+String methods
+Arithmetic operators
+Comparison operators
+if and else statements
+Lists
+for loops
+while loops
+Random numbers
+User input
+Calculations
+f-strings
+🛒 Mini Shopping Project
+
+The final assessment exercise is a simple shopping program.
+
+The program asks the user for:
+
+Their name
+Product price
+Quantity
+
+It then calculates the total price and applies a 10% discount when the total is 5,000 or more.
+
+Example
+Customer: Doris
+Total before discount: 6000
+Discount: 600
+Final price: 5400
+🎯 Learning Goal
+
+The purpose of this repository is to document my progress as I learn Python and practice writing Python programs.
+
+👩‍💻 Author
+
+Doris
+
+This repository is part of my Python learning journey.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
