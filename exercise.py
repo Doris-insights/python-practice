@@ -127,9 +127,9 @@ If the total is 5000 or more, give them a 10% discount.
 Otherwise, there is no discount.
 """
 
-name = input("Enter your name:")
-price = float(input("Enter the price of the product: "))
-quantity = int(input("Enter the quantity: "))
+#name = input("Enter your name:")
+#price = float(input("Enter the price of the product: "))
+#quantity = int(input("Enter the quantity: "))
 
 total = price * quantity
 
@@ -145,6 +145,55 @@ print(f"Customer: {name}")
 print(f"Total before discount: {total}")
 print(f"Discount: {discount}")
 print(f"Final price: {final_price}")
+
+# Second Assessment
+
+name = input("Enter your name:")
+age = int(input("your age: "))
+city = input("your city: ")
+
+print(f"Hello, {name}!")
+print(f"You are {age} years old and you live in {city}.")
+
+
+a = int(input("your first number: "))
+b = int(input("your second number: "))
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+
+number = int(input("give me a number: "))
+if number % 2 == 0:
+   print(f"{number} is even")
+else:
+   print(f"{number} is odd")
+
+
+age= int(input("your age: "))
+
+if age is age <= 12:
+   print("You are a child.")
+elif age <= 19:
+   print("You are a teenager")
+elif age <= 59:
+   print("You are an adult")
+else :
+   print("You are a senior")
+     
+
+
+
+
+
+
+
+
+
+
+
 
 
 
