@@ -147,15 +147,16 @@ print(f"Discount: {discount}")
 print(f"Final price: {final_price}")
 
 # Second Assessment
-
+"""
 name = input("Enter your name:")
 age = int(input("your age: "))
 city = input("your city: ")
 
 print(f"Hello, {name}!")
 print(f"You are {age} years old and you live in {city}.")
+"""
 
-
+"""
 a = int(input("your first number: "))
 b = int(input("your second number: "))
 
@@ -163,15 +164,17 @@ print(a + b)
 print(a - b)
 print(a * b)
 print(a / b)
+"""
 
-
+"""
 number = int(input("give me a number: "))
 if number % 2 == 0:
    print(f"{number} is even")
 else:
    print(f"{number} is odd")
+""" 
 
-
+"""
 age= int(input("your age: "))
 
 if age is age <= 12:
@@ -182,9 +185,57 @@ elif age <= 59:
    print("You are an adult")
 else :
    print("You are a senior")
-     
+"""
 
+"""
+score = int(input("your score:"))
+if score >= 70:
+   print("your grade is A")
+elif score >= 60:
+   print("your grade is B")
+elif score >= 50:
+   print("your grade is C")
+elif score >= 40:
+   print("your grade is D")
+else:
+   print("your grade is E")
+"""
 
+shopping = ["rice", "milk", "bread", "eggs"]
+
+print(shopping)
+shopping.insert(1,"meat")
+print(shopping)
+shopping.remove("milk")
+print(shopping)
+shopping[2]="butter"
+print(shopping)
+print(len(shopping))
+
+numbers = [12, 45, 7, 89, 23, 56]
+print(max(numbers))
+
+number = 1,2,3,4,5,6,7,8,9,10
+for x in number:
+   print(x)
+
+for number in range(1, 21):
+    if number % 2 == 0:
+        print(number)
+
+number = int(input("your number"))
+for x in range(1,11):
+   print(f"{number} x {x}= {number * x}")
+
+password = "python123"
+
+user_password = input("Enter your password: ")
+
+while user_password != password:
+    print("Incorrect password. Try again.")
+    user_password = input("Enter your password: ")
+
+print("Access granted!")
 
 
 
