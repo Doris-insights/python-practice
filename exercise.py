@@ -238,7 +238,22 @@ while user_password != password:
 print("Access granted!")
 
 
+import random
 
+number = random.randint(1, 20)
+
+guess = int(input("Guess the number (1-20): "))
+
+while guess != number:
+
+    if guess > number:
+        print("Too high!")
+    else:
+        print("Too low!")
+
+    guess = int(input("Try again: "))
+
+print("Correct! You won!")
 
 
 
