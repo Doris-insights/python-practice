@@ -147,16 +147,16 @@ print(f"Discount: {discount}")
 print(f"Final price: {final_price}")
 
 # Second Assessment
-"""
+# QUESTION 1
 name = input("Enter your name:")
 age = int(input("your age: "))
 city = input("your city: ")
 
 print(f"Hello, {name}!")
 print(f"You are {age} years old and you live in {city}.")
-"""
 
-"""
+
+# QUESTION 2
 a = int(input("your first number: "))
 b = int(input("your second number: "))
 
@@ -164,17 +164,17 @@ print(a + b)
 print(a - b)
 print(a * b)
 print(a / b)
-"""
 
-"""
+
+# QUESTION 3
 number = int(input("give me a number: "))
 if number % 2 == 0:
    print(f"{number} is even")
 else:
    print(f"{number} is odd")
-""" 
+ 
 
-"""
+# QUESTION 4
 age= int(input("your age: "))
 
 if age is age <= 12:
@@ -185,9 +185,9 @@ elif age <= 59:
    print("You are an adult")
 else :
    print("You are a senior")
-"""
 
-"""
+
+# QUESTION 5
 score = int(input("your score:"))
 if score >= 70:
    print("your grade is A")
@@ -199,8 +199,8 @@ elif score >= 40:
    print("your grade is D")
 else:
    print("your grade is E")
-"""
 
+# QUESTION 6
 shopping = ["rice", "milk", "bread", "eggs"]
 
 print(shopping)
@@ -212,20 +212,30 @@ shopping[2]="butter"
 print(shopping)
 print(len(shopping))
 
+# QUESTION 7
+
 numbers = [12, 45, 7, 89, 23, 56]
 print(max(numbers))
+
+# QUESTION 8
 
 number = 1,2,3,4,5,6,7,8,9,10
 for x in number:
    print(x)
 
+# QUESTION 9
+
 for number in range(1, 21):
     if number % 2 == 0:
         print(number)
 
+# QUESTION 10
+
 number = int(input("your number"))
 for x in range(1,11):
    print(f"{number} x {x}= {number * x}")
+
+# QUESTION 11
 
 password = "python123"
 
@@ -237,6 +247,7 @@ while user_password != password:
 
 print("Access granted!")
 
+# QUESTION 12
 
 import random
 

@@ -143,6 +143,141 @@ This repository is part of my Python learning journey.
 
 
 
+# 🐍 Python Assessment 2
+
+This project contains my second beginner Python assessment. It is designed to practice the Python concepts I have learned and improve my ability to write programs independently.
+
+## 📁 Assessment Exercises
+
+### Question 1 — Personal Information
+
+A program that asks the user for their:
+
+* Name
+* Age
+* City
+
+It then displays their information using an f-string.
+
+### Question 2 — Simple Calculator
+
+A calculator that asks the user for two numbers and calculates:
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+
+### Question 3 — Even or Odd
+
+A program that asks the user for a number and checks whether the number is even or odd using the `%` operator.
+
+### Question 4 — Age Checker
+
+A program that checks a person's age and identifies them as:
+
+* Child
+* Teenager
+* Adult
+* Senior
+
+The program uses `if`, `elif`, and `else`.
+
+### Question 5 — Grade Checker
+
+A program that asks for a student's score and assigns a grade:
+
+| Score    | Grade |
+| -------- | ----- |
+| 70–100   | A     |
+| 60–69    | B     |
+| 50–59    | C     |
+| 40–49    | D     |
+| Below 40 | F     |
+
+### Question 6 — Shopping List
+
+A program that works with a list of shopping items. It practices:
+
+* Adding items
+* Removing items
+* Changing items
+* Finding the number of items
+
+### Question 7 — Find the Largest Number
+
+A program that finds the largest number in a list without using the `max()` function.
+
+This exercise practices:
+
+* Lists
+* `for` loops
+* `if` statements
+* Comparison operators
+
+### Question 8 — Numbers 1–10
+
+A `for` loop that prints numbers from 1 to 10.
+
+### Question 9 — Even Numbers
+
+A program that uses a loop to print all even numbers between 1 and 20.
+
+### Question 10 — Multiplication Table
+
+A program that asks the user for a number and prints its multiplication table from 1 to 10.
+
+### Question 11 — Password Checker
+
+A password program that keeps asking the user for the correct password until it is entered.
+
+This exercise practices the `while` loop and the `!=` operator.
+
+### Question 12 — Number Guessing Game
+
+A simple guessing game where Python generates a random number between 1 and 20.
+
+The program tells the user whether their guess is:
+
+* Too high
+* Too low
+* Correct
+
+The game continues until the user guesses the correct number.
+
+## 📚 Python Concepts Practiced
+
+Through Questions 1–12, I practiced:
+
+* Variables
+* Data types
+* `input()`
+* `int()`
+* `float()`
+* Strings
+* f-strings
+* Arithmetic operators
+* Comparison operators
+* `if`
+* `elif`
+* `else`
+* Lists
+* `for` loops
+* `while` loops
+* `range()`
+* `%` modulus operator
+* `random`
+* `random.randint()`
+
+## 🎯 Learning Goal
+
+The goal of this assessment is to strengthen my understanding of Python fundamentals and improve my problem-solving and programming skills.
+
+## 👩‍💻 Author
+
+**Doris**
+
+This assessment is part of my Python learning journey.
 
 
 
