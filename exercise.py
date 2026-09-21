@@ -269,7 +269,7 @@ while guess != number:
 print("Correct! You won!")
 """
 
-
+"""
 student_name = input("Student name: ")
 
 score1 = float(input("Score 1: "))
@@ -296,9 +296,14 @@ print(f"Score 2: {score2}")
 print(f"Score 3: {score3}")
 print(f"Average: {average:.1f}")
 print(f"Grade: {grade}")
+"""
 
+word = input("Enter a word: ")
+letter = input("Enter a letter: ")
 
+count = word.count(letter)
 
+print(f"The letter {letter} appears {count} times.")
 
 
 
