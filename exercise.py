@@ -296,7 +296,7 @@ print(f"Score 2: {score2}")
 print(f"Score 3: {score3}")
 print(f"Average: {average:.1f}")
 print(f"Grade: {grade}")
-"""
+
 
 word = input("Enter a word: ")
 letter = input("Enter a letter: ")
@@ -304,9 +304,13 @@ letter = input("Enter a letter: ")
 count = word.count(letter)
 
 print(f"The letter {letter} appears {count} times.")
+"""
 
+word = input("Enter a word: ")
 
+reverse_word = word[::-1]
 
+print(reverse_word)
 
 
 
