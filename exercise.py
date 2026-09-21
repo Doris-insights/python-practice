@@ -146,6 +146,7 @@ print(f"Total before discount: {total}")
 print(f"Discount: {discount}")
 print(f"Final price: {final_price}")
 
+"""
 # Second Assessment
 # QUESTION 1
 name = input("Enter your name:")
@@ -249,6 +250,7 @@ print("Access granted!")
 
 # QUESTION 12
 
+
 import random
 
 number = random.randint(1, 20)
@@ -265,8 +267,35 @@ while guess != number:
     guess = int(input("Try again: "))
 
 print("Correct! You won!")
+"""
 
 
+student_name = input("Student name: ")
+
+score1 = float(input("Score 1: "))
+score2 = float(input("Score 2: "))
+score3 = float(input("Score 3: "))
+
+average = (score1 + score2 + score3) / 3
+
+if average >= 70:
+    grade = "A"
+elif average >= 60:
+    grade = "B"
+elif average >= 50:
+    grade = "C"
+elif average >= 40:
+    grade = "D"
+else:
+    grade = "F"
+
+print()
+print(f"Student: {student_name}")
+print(f"Score 1: {score1}")
+print(f"Score 2: {score2}")
+print(f"Score 3: {score3}")
+print(f"Average: {average:.1f}")
+print(f"Grade: {grade}")
 
 
 
