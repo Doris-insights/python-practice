@@ -224,43 +224,98 @@ print("xcel" not in name)
 print("gift" in name)
 print("gift" not in name)
 
-# IIDENTITY OPERATORS
+def about_me():
+    print("working as a data engineer")
+    print("with a fintech company")
+    print("as a jnr data engineer")
+    print("and i am married")
+
+print("Doris is my name")
+about_me()
+
+#building full name
+def full_name(first_name,last_name,country):
+    first =first_name.strip().lower()
+    last = last_name.strip().lower()
+    full_name = first + " " + last
+    print(full_name, "from", country)
+
+full_name("DoRIS", "DIvine", "Nigeria")
+
+def gift_me():
+     print("i want a new laptop")
+     print("and a note pad along side")
+    
+gift_me()
+
+def greet_customer():
+     print("Welcome to my shop")
+
+greet_customer()
+
+
+def calculate_total(price, quantity):
+     print(price * quantity)
+
+calculate_total( 3000, 2)
+
+# *args AND **kwargs
+
+def total_num(*args):
+    print(sum(args))
+
+total_num(50,30,50,100)
+
+def new_name(*args):
+    print(args)
+    print(type(args))
+
+    new_name("doris", "faith", "gift", "love")
+
+def create_user(**kwargs):
+    print(kwargs)
+
+create_user(first_name="Doris",
+            last_name="gift",
+            age=27,
+            country="Nigeria")
+
+# RETURNS
+
+def clean_name(name):
+    lo_cleaned= name.strip().lower()
+    up_cleaned= name.strip().upper()
+    return lo_cleaned, up_cleaned
+
+cln_name = clean_name(" Doris  ")
+print(cln_name)
 
 
 
+def clean_name(name):
+    lo_cleaned= name.strip().lower()
+    up_cleaned= name.strip().upper()
+    return lo_cleaned, up_cleaned
+
+cln_name, dit_name = clean_name(" Doris  ")
+print(cln_name)
+print(dit_name )
+
+#  Assessment
+def total_sales(sales1, sales2):
+    daily_total= sales1 + sales2
+    return daily_total
+
+the_total=total_sales(5000, 7500)
+print(the_total)
 
 
+def calculate_profit(revenue, expenses):
+    profit= revenue - expenses
+    return profit
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+p_total=calculate_profit(25000, 8000)
+print(p_total)
 
 
 
