@@ -301,7 +301,7 @@ cln_name, dit_name = clean_name(" Doris  ")
 print(cln_name)
 print(dit_name )
 
-#  Assessment
+ # Assessment
 def total_sales(sales1, sales2):
     daily_total= sales1 + sales2
     return daily_total
@@ -316,6 +316,47 @@ def calculate_profit(revenue, expenses):
 
 p_total=calculate_profit(25000, 8000)
 print(p_total)
+
+# CHATGBT Assessment
+
+def greet():
+    print("Hello, welcome to python")
+greet()
+
+def name():
+    print("Doris")
+name()
+
+def add_number(a,b):
+    print( a + b)
+add_number( 30,50)
+
+
+def even_or_odd(number):
+    if number %2==0:
+        print("even number")
+    else:
+        print("odd number")
+
+even_or_odd(10)
+even_or_odd(5)       
+
+
+def greet_user(name):
+    print("Hello", name +  ", welcome")
+
+greet_user("Doris")
+
+
+def calculate_age(birth_year):
+    current_year=(2026)
+    age=current_year - birth_year
+    print("your age is:", age)
+
+calculate_age(1999)
+
+
+
 
 
 
