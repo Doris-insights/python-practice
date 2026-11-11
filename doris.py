@@ -356,6 +356,46 @@ def calculate_age(birth_year):
 calculate_age(1999)
 
 
+#Create a function called full_name(first_name, last_name) that returns the person's full name.
+
+def full_name(first_name, last_name):
+    return first_name + " " + last_name
+
+result=full_name("Doris", "gift")
+print(result)
+
+# Create a function called discount(price, percentage) that calculates and returns the discounted price.
+
+def discount(price, percentage):
+    discount_amount= price * percentage / 100
+    final_price= price - discount_amount
+    return final_price
+result=discount(30000, 10)
+print("discounted price:", result)
+
+#Create a function called largest_number(numbers) that accepts
+#  a list of numbers and returns the largest number.
+
+def largest_number(numbers):
+    largest= max(numbers)
+    return largest
+result=largest_number([10, 25, 5, 40, 15])
+print("The largest number is:", result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
