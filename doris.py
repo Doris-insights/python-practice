@@ -383,8 +383,22 @@ result=largest_number([10, 25, 5, 40, 15])
 print("The largest number is:", result)
 
 
+# CONTROL FLOW
 
-
+# check if any file name appear more than once
+file_list = [
+    "report.csv",
+    "data.xlsx",
+    "summary.docx",
+    "report.csv",
+    "data.csv"
+]
+for file in file_list:
+    if file_list.count(file)>1:
+        print("duplicate found")
+        break
+else:
+    print("All files are unique")
 
 
 
