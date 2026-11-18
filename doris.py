@@ -400,14 +400,33 @@ for file in file_list:
 else:
     print("All files are unique")
 
+# Conditional statement
+
+number = -80
+
+if number > 0:
+    print("number is positive")
+elif number < 0:
+    print("number is negative")    
+else:
+    print("number is zero")
 
 
+age = 30
 
+if age >= 18:
+    print("This person can vote")
+else:
+    print("This person cannot vote")    
 
-
-
-
-
+a = 30
+b = 20
+if a > b:
+    print("a is greater")
+elif b > a:
+    print("b is greater")
+else:
+    print("Both numbers are equal")    
 
 
 
