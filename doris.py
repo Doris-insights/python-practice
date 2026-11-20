@@ -429,9 +429,53 @@ else:
     print("Both numbers are equal")    
 
 
+# Create a program that checks whether a student passed or failed.
+#- Score of 50 and above: Pass.
+#- Below 50: Fail.
+
+student= 55
+
+if student >= 50:
+    print("pass")
+else:
+    print("fail")
+
+# Write a program that assigns grades based on a student's score:
 
 
+grade=75
 
+if grade >= 80:
+    print("Grade A")
+elif grade >= 70:
+    print(" Grade B")
+elif grade >= 60:
+    print(" Grade C")
+elif grade >= 50:
+    print(" Grade D")
+else:
+    print(" Grade F")
+
+# Create a program that checks the day of the week using a number.
+
+
+day = 2
+if day == 1:
+    print("Monday")
+elif day == 2:
+    print("Tuesday")
+elif day == 3:
+    print("Wednesday")
+elif day == 4:
+    print("Thursday")
+elif day == 5:
+    print("Friday")
+elif day == 6:
+    print("Saturday")
+elif day == 7:
+    print("Sunday")
+else:
+    print("Invalid day")
 
 
 
