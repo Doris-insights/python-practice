@@ -478,6 +478,54 @@ else:
     print("Invalid day")
 
 
+"""
+ Write a program that checks whether a person can buy a car.
+
+Requirements:
+ The person must be 18 or older.
+ If they are 18 or older, check whether they have enough money.
+ If they have enough money, print "You can buy the car".
+"""
+
+age = 16
+afford_car = False 
+
+if age >= 18:
+    if afford_car:
+        print("you can buy a car")
+    else:
+        print("can't afford it")
+else:
+    print("too young to own a car")
+
+
+"""
+Write a program that checks whether a person is eligible for a job.
+
+Requirements:
+- Age must be 18 or above.
+- Experience must be at least 2 years.
+Use the and operator.
+"""
+
+age = 25
+qualification = True
+
+if age >= 18 and qualification:
+    print("eligible for a job")
+else:
+    print("not eligible")
+
+
+
+
+
+
+
+
+
+
+
 
 
 
